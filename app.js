@@ -52,8 +52,8 @@ app.get('/pay/:amt/item/:itemname', (req, res) => {
             "payment_method": "paypal"
         },
         "redirect_urls": {
-            "return_url": "https://warm-eyrie-22944.herokuapp.com/success",
-            "cancel_url": "https://warm-eyrie-22944.herokuapp.com/cancel"
+            "return_url": "https://floating-citadel-33371.herokuapp.com/success",
+            "cancel_url": "https://floating-citadel-33371.herokuapp.com/cancel"
         },
         "transactions": [{
             "item_list": {
