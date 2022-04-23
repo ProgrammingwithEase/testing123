@@ -12,7 +12,7 @@ app.use(cors())
 app.engine("ejs",engines.ejs)
 app.set("views","./views");
 app.set("view engine","ejs")
-
+  // hello
 
 app.use(express.json())
 
